@@ -1,0 +1,61 @@
+.about h1 {
+    text-align: center;
+    color: white;
+    font-family: var(--font3);
+    font-weight: bold;
+    font-size: 4rem;
+    padding-top: 7rem;
+}
+
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-image: url(../Assets/Images/moon.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.aboutRow2 {
+    margin-top: 6rem;
+}
+
+.aboutDesc {
+    font-family: var(--font3);
+    color: white;
+    font-size: 24px;
+    padding-top: 5rem;
+}
+
+.headshot {
+    width: 25rem;
+    height: 25rem;
+    border: solid 5px white;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.other {
+    margin: 6rem 0;
+}
+
+.intPic {
+    width: 18rem;
+    height: 18rem;
+    border: solid 5px white;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#smallHead {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+}
+
+.interests {
+    padding-bottom: 10rem;
+}

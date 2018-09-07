@@ -1,0 +1,24 @@
+.jumbo {
+    background: url(../Assets/Images/galaxy1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 58rem;
+    color: white;
+    text-shadow: 2px 2px 2px var(--lightgray);
+    text-align: center;
+    padding-top: 22rem;
+    margin-bottom: 10rem;
+}
+
+.name {
+    font-family: var(--font4);
+    font-weight: bold;
+}
+
+.jumboText {
+    font-size: 25px;
+    font-family: var(--font4);
+    font-weight: bold;
+}

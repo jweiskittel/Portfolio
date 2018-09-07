@@ -1,0 +1,8 @@
+body {
+    background: var(--black);
+    margin-bottom: 5rem;
+}
+
+.jumbotron {
+    margin: 0;
+}

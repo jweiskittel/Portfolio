@@ -1,0 +1,40 @@
+.rowContact {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%;
+}
+
+#contact {
+    background: var(--black);
+    padding-bottom: 10rem;
+}
+
+.contactHeader {
+    color: white;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    font-family: var(--font3)
+}
+
+label {
+    color: var(--lightGray);
+}
+
+#name, #email, #message {
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 1px var(--lightGray);
+    border-radius: 0;
+}
+
+input {
+    color: white;
+}
+
+button {
+    background-color: var(--darkGray);
+    color: white;
+}

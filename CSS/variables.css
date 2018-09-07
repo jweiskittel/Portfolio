@@ -1,0 +1,18 @@
+:root {
+    --orange: #bc4a10;
+    --blue: #024583;
+    --red: #9b0401;
+    --purple: #390287;
+    --green: #149b22;
+    --darkGray: #1a1a1a;
+    --lightGray: #8e8e8e;
+    --black: #000000;
+    --yellow: #d8c927;
+    --teal: #20e5b0;
+    --font1: 'Cinzel Decorative', cursive;
+    --font2: 'Patua One', cursive;
+    --font3: 'Poiret One', cursive;
+    --font4: 'Megrim', cursive;
+    --font5: 'Flamenco', cursive;
+    --font6: 'PT Sans Narrow', sans-serif;
+}

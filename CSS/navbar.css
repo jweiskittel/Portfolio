@@ -1,0 +1,28 @@
+.scroll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 2em;
+    height: 3rem;
+    background: transparent;
+    z-index: 100;
+}
+
+.ddMenu {
+    background: var(--blue);
+    border: solid 1px var(--black);
+}
+
+.ddMenu a {
+    color: white;
+}
+
+.navName {
+    font-family: var(--font4);
+    font-size: 24px;
+}
+
+.subText {
+    font-family: var(--font6);
+    font-size: 17px;
+}

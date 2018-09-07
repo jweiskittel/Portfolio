@@ -1,0 +1,27 @@
+.footer {
+    background: var(--black)
+}
+
+a {
+    text-decoration: none;
+}
+
+.footerIcon {
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.footerIcon:hover {
+    color: var(--blue)
+}
+
+.footerRow {
+    text-align: center;
+}
+
+.footerText {
+    text-align: center;
+    color: white;
+    font-family: var(--font6)
+}
