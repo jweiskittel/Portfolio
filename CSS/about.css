@@ -1,6 +1,6 @@
 .about h1 {
     text-align: center;
-    color: white;
+    color: black;
     font-family: var(--font3);
     font-weight: bold;
     font-size: 4rem;
@@ -11,7 +11,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-image: url(../Assets/Images/moon.jpg);
+    background-image: linear-gradient(black, white, black);
     background-size: cover;
     background-position: bottom;
 }
@@ -22,15 +22,16 @@
 
 .aboutDesc {
     font-family: var(--font3);
-    color: white;
+    color: black;
     font-size: 24px;
     padding-top: 5rem;
+    font-weight: bold;
 }
 
 .headshot {
     width: 25rem;
     height: 25rem;
-    border: solid 5px white;
+    border: solid 5px var(--lightGray);
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -44,7 +45,7 @@
 .intPic {
     width: 18rem;
     height: 18rem;
-    border: solid 5px white;
+    border: solid 5px var(--lightGray);
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
