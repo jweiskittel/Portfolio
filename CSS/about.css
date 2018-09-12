@@ -1,19 +1,17 @@
 .about h1 {
     text-align: center;
-    color: black;
+    color: white;
     font-family: var(--font3);
-    font-weight: bold;
     font-size: 4rem;
     padding-top: 7rem;
+    font-weight: bold;
 }
 
 .about {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-image: linear-gradient(black, white, black);
-    background-size: cover;
-    background-position: bottom;
+    background: black;
 }
 
 .aboutRow2 {
@@ -22,10 +20,9 @@
 
 .aboutDesc {
     font-family: var(--font3);
-    color: black;
+    color: white;
     font-size: 24px;
     padding-top: 5rem;
-    font-weight: bold;
 }
 
 .headshot {
@@ -42,7 +39,7 @@
     margin: 6rem 0;
 }
 
-.intPic {
+.intPic{
     width: 18rem;
     height: 18rem;
     border: solid 5px var(--lightGray);
@@ -50,6 +47,11 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    transition: transform .4s;
+}
+
+.intPic:hover {
+    transform: scale(1.2)
 }
 
 #smallHead {

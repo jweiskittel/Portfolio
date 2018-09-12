@@ -6,7 +6,9 @@
 }
 
 #contact {
-    background: var(--black);
+    background-image: url(../Assets/Images/astronaut.jpg);
+    background-size: cover;
+    background-position: center;
     padding-bottom: 10rem;
 }
 
@@ -26,8 +28,9 @@ label {
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom: solid 1px var(--lightGray);
+    border-bottom: solid 1px white;
     border-radius: 0;
+    color: white;
 }
 
 input {
