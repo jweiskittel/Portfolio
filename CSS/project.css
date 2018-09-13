@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
 }
 
-.projectPic1, .projectPic2, .projectPic3 {
+.projectPic {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -15,19 +15,7 @@
     border: solid 3px rgba(255, 255, 255, 0.199); 
 }
 
-/* .projectPic3 {
-    width: 90%;
-    height: 80.5%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
-    transition: transform .4s;
-    border: solid 3px rgba(255, 255, 255, 0.199);
-} */
-
-.projectPic1:hover, .projectPic2:hover, .projectPic3:hover {
+.projectPic:hover {
     transform: scale(1.15);
 }
 
@@ -53,7 +41,7 @@
 .projectDesc {
     color: white;
     text-align: center;
-    padding-top: 1rem;
     font-family: var(--font7);
-    font-size: 1.25rem
+    font-size: 1.25rem;
+    padding-top: 1rem;
 }

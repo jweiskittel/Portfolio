@@ -4,7 +4,7 @@
     background-position: bottom;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    height: 58rem;
+    height: 100vh;
     color: white;
     text-shadow: 2px 2px 2px var(--lightgray);
     text-align: center;
