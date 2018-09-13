@@ -4,21 +4,6 @@
     background-repeat: no-repeat;
 }
 
-.projectPic {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
-    transition: transform .4s; 
-    border: solid 3px rgba(255, 255, 255, 0.199); 
-}
-
-.projectPic:hover {
-    transform: scale(1.15);
-}
-
 .projectHead {
     text-align: center;
     font-size: 4rem;
@@ -38,10 +23,37 @@
     padding-bottom: 15rem;
 }
 
-.projectDesc {
-    color: white;
+.blur {
+    display: inline-block;
+    position: relative;
+}
+
+.blur img {
+    width: 100%;
+    height: 100%;
+    border: solid 3px rgba(255, 255, 255, 0.199);
+    transition: transform .4s;
+}
+
+.blur:hover img {
+    filter: blur(1.5px) brightness(50%);
+    transform: scale(1.10)
+}
+
+.blur p {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 10%;
+    width: 80%;
     text-align: center;
+    color: white;
+    opacity: 0;
     font-family: var(--font7);
-    font-size: 1.25rem;
-    padding-top: 1rem;
+    font-size: 1.35rem;
+    transition: .5s;
+}
+
+.blur:hover p {
+    opacity: 1
 }
