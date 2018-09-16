@@ -31,6 +31,12 @@ label {
     border-bottom: solid 1px white;
     border-radius: 0;
     color: white;
+    transition: transform .4s
+}
+
+#name:hover, #email:hover, #message:hover {
+    border-bottom: solid 2px rgb(5, 149, 206);
+    transform: scale(1.02)
 }
 
 input {

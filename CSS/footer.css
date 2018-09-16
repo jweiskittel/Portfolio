@@ -10,9 +10,11 @@ a {
     font-size: 2rem;
     color: white;
     padding-bottom: 3rem;
+    transition: transform .4s;
 }
 
 .footerIcon:hover {
+    transform: scale(1.25);
     color: rgb(5, 149, 206)
 }
 
