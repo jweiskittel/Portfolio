@@ -1,3 +1,7 @@
+#projects {
+    padding-bottom: 15rem
+}
+
 .projects {
     background-image: url(../Assets/Images/blueLine.jpg);
     background-size: cover;
@@ -20,7 +24,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 2rem;
-    padding-bottom: 15rem;
+    padding-bottom: 0.5rem;
 }
 
 .blur {
@@ -29,8 +33,8 @@
 }
 
 .blur img {
-    width: 100%;
-    height: 100%;
+    width: 27vw;
+    height: 30vh;
     border: solid 3px rgba(255, 255, 255, 0.199);
     transition: transform .4s;
 }
