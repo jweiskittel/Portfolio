@@ -70,5 +70,13 @@
 
 /* Iphone 5/SE & Galaxy S5 */
 @media screen and (max-width: 375px) {
-  
+  .interests {
+      flex-direction: column;
+      justify-content: center
+  }
+
+  .intPic {
+      width: 65vw;
+      height: 40vh
+  }
 }

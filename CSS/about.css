@@ -68,5 +68,25 @@
   
   /* Iphone 5/SE & Galaxy S5 */
   @media screen and (max-width: 375px) {
-    
+    .aboutRow2 {
+        flex-direction: column;
+    }
+
+    .aboutDesc {
+        max-width: 80vw;
+        font-size: 20px;
+        margin-left: 10%
+    }
+
+    .aboutDesc p {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .headshot {
+        width: 65vw;
+        height: 40vh;
+        margin-left: 17%;
+        margin-top: 20px
+    }
   }

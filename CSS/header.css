@@ -23,3 +23,38 @@
     font-family: var(--font4);
     font-weight: bold;
 }
+
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+    
+}
+
+
+
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+  
+}
+
+
+
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+  
+}
+
+
+
+/* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 412px) {
+  
+}
+
+
+
+/* Iphone 5/SE & Galaxy S5 */
+@media screen and (max-width: 375px) {
+    .jumbo {
+        padding-top: 12rem
+    }
+}
