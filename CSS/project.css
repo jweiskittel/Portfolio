@@ -1,11 +1,9 @@
-#projects {
-    padding-bottom: 15rem
-}
-
 .projects {
     background-image: url(../Assets/Images/blueLine.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 15rem;
+    max-width: 100vw
 }
 
 .projectHead {
@@ -25,10 +23,11 @@
     margin-right: auto;
     padding-top: 2rem;
     padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-evenly
 }
 
 .blur {
-    display: inline-block;
     position: relative;
 }
 
@@ -60,4 +59,39 @@
 
 .blur:hover p {
     opacity: 1
+}
+
+
+
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+    
+}
+
+
+
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+  
+}
+
+
+
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+  
+}
+
+
+
+/* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 412px) {
+  
+}
+
+
+
+/* Iphone 5/SE & Galaxy S5 */
+@media screen and (max-width: 375px) {
+  
 }

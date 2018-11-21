@@ -1,7 +1,7 @@
 .scroll {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     margin-bottom: 2em;
     height: 3rem;
     background: transparent;

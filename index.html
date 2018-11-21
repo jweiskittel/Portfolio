@@ -5,245 +5,224 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Justin Weiskittel</title>
-        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Flamenco|Megrim|PT+Sans+Narrow|Patua+One|Poiret+One|Kreon:300" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="./CSS/main.css">
-    </head>
-    <body>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark scroll">
-            <a class="navbar-brand navName" href="#header">JW</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Justin Weiskittel</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Flamenco|Megrim|PT+Sans+Narrow|Patua+One|Poiret+One|Kreon:300"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark scroll">
+    <a class="navbar-brand navName" href="#header">JW</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item subText">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item subText">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item dropdown subText">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+
+  <div class="jumbotron jumbotron-fluid jumbo" id="header">
+    <div class="container">
+      <h1 class="display-4 name animated fadeIn slower delay-1s">Justin Weiskittel</h1>
+      <p class="lead"></p>
+      <hr class="my-4">
+      <p class="jumboText animated fadeIn slower delay-2s">Aspiring Software Developer</p>
+    </div>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <div id="title"></div>
+  </div>
+
+
+  <div class="about">
+    <h1 data-wow-delay=".4s" class="wow fadeInUp slower">About</h1>
+    <div class="aboutRow2">
+      <div class="aboutDesc">
+        <p data-wow-delay=".4s" class="wow fadeInUp slower">Hi, my name is Justin Weiskittel. I am learning to become a
+          JavaScript Developer.</p>
+        <p data-wow-delay=".4s" class="wow fadeInUp slower">I am currently enrolled in <a href="https://www.elevenfifty.org/"
+            target="blank">Eleven Fifty Academy's</a> 12 week JavaScript SmartStart program. I am using HTML, CSS,
+          JavaScript, & more to create professional grade websites and applications.</p>
+        <p data-wow-delay=".4s" class="wow fadeInUp slower">Please check out my <a href="https://docs.google.com/document/d/1MXy1__TzoZHuxgqO3KQItpYYMgC2vQT4pwii-p8unkc/edit"
+            target="blank">resume</a></p>
+      </div>
+      <div>
+        <img data-wow-delay=".3s" src="./Assets/Images/Headshot.jpg" class="headshot wow fadeInUp slower">
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <div class="other">
+    <h1 data-wow-delay=".3s" class="intHeader wow zoomIn slower">Other Interests</h1>
+    <div class='interests'>
+      <div data-wow-delay=".3s" class="wow fadeInLeft slow">
+        <h1 id="smallHead">Sports</h1>
+        <br>
+        <img src="./Assets/Images/aLuck.jpg" class="intPic" alt="Andrew Luck">
+      </div>
+      <div data-wow-delay=".3s" class="wow fadeIn slowest">
+        <h1 id="smallHead">Gaming</h1>
+        <br>
+        <img src="./Assets/Images/gaming.PNG" class="intPic">
+      </div>
+      <div data-wow-delay=".3s" class="wow fadeInRight slow">
+        <h1 id="smallHead">Music</h1>
+        <br>
+        <img src="./Assets/Images/music.png" class="intPic">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="projects">
+    <h1 data-wow-delay=".4s" class="projectHead wow fadeInUp slower">My Projects</h1>
+    <div class="projectsRow">
+      <div data-wow-delay=".4s" class="blur wow pulse slow">
+        <a href="https://codepen.io/jweiskittel/pen/XPdvPy" target="blank">
+          <img src="./Assets/Images/cssCreature.PNG">
+          <p>Goat created using only CSS</p>
+        </a>
+      </div>
+      <div data-wow-delay=".4s" class="blur wow pulse slow">
+        <a href="https://jweiskittel.github.io/storeFront/" target="blank">
+          <img src="./Assets/Images/storeFront.PNG">
+          <p>A static website using only HTML & CSS</p>
+        </a>
+      </div>
+      <div data-wow-delay=".4s" class="blur wow pulse slow">
+        <a href="https://apicoordinates.firebaseapp.com/" target="blank">
+          <img src="./Assets/Images/api.PNG">
+          <p>Displays location data using JS & API GET requests</p>
+        </a>
+      </div>
+    </div>
+    <div class="projectsRow">
+      <div data-wow-delay='.4s' class='blur wow pulse slow'>
+        <a href='https://randomfoodfinder.herokuapp.com/' target='blank'>
+          <img src='./Assets/Images/angularApp2.PNG'>
+          <p>Responsive Restaurant Finder using Angular</p>
+        </a>
+      </div>
+      <div data-wow-delay='.4s' class="blur wow pulse slow">
+        <a href='https://no-borders-client.herokuapp.com/' target='blank'>
+          <img src='./Assets/Images/angularApp.PNG'>
+          <p>Responsive Full-Stack App using Angular, Node.js & Postgres</p>
+        </a>
+      </div>
+      <div data-wow-delay=".4s" class="blur wow pulse slow">
+        <a href="https://jw-gtclient.herokuapp.com/" target="blank">
+          <img src="./Assets/Images/reactApp.PNG">
+          <p>Responsive Full-Stack App using React, Node.js & Postgres</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <br>
+
+
+
+
+
+  <section id="contact">
+    <div data-wow-delay=".3s" class="wow fadeInUp slower">
+      <h2 class="contactHeader">Want To Get In Touch?</h2>
+      <div class="rowContact">
+        <form action="https://formspree.io/justinweiskittel@gmail.com" method="POST">
+          <div class="control-group">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name" id="name" required
+                data-validation-required-message="Please enter your name" name="name">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email" id="email" required
+                data-validation-required-message="Please enter your email" name="_replyto">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Message" id="message" required
+                data-validation-required-message="Please leave a message" name="message"></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="text-center">
+            <div id="success"></div>
+            <button type="submit" class="btn btn-md">
+              <i class="fa fa-paper-plane-o" aria-hidden="false"></i>
+              Send Message
             </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item subText">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item subText">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item dropdown subText">
-                  <a class="nav-link" href="#contact">Contact</a>
-                  <!-- <div class="dropdown-menu ddMenu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">CSS Creature</a>
-                    <a class="dropdown-item" href="#">Store Front</a>
-                    <div class="dropdown-divider"></div> -->
-                    <!-- <a class="dropdown-item" href="#">API Challenge</a> -->
-                  <!-- </div> -->
-                </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li> -->
-              </ul>
-            </div>
-          </nav>
-          <br>
-
-          <div class="jumbotron jumbotron-fluid jumbo" id="header">
-            <div class="container">
-              <h1 class="display-4 name animated fadeIn slower delay-1s">Justin Weiskittel</h1>
-              <p class="lead"></p>
-              <hr class="my-4">
-              <p class="jumboText animated fadeIn slower delay-2s">Aspiring Software Developer</p>
-            </div>
-          <div id="stars"></div>
-          <div id="stars2"></div>
-          <div id="stars3"></div>
-          <div id="title"></div>
           </div>
-          <div class="jumbotron jumbotron-fluid about" id="about">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-12">
-                  <h1 data-wow-delay=".4s" class="wow fadeInUp slower">About</h1>
-                </div>
-              </div>
-              <div class="row aboutRow2">
-                <div class="col-1"></div>
-                <div class="col-6 aboutDesc">
-                  <p data-wow-delay=".4s" class="wow fadeInUp slower">Hi, my name is Justin Weiskittel. I am learning to become a JavaScript Developer.</p>
-                  <p data-wow-delay=".4s" class="wow fadeInUp slower">I am currently enrolled in <a href="https://www.elevenfifty.org/" target="blank">Eleven Fifty Academy's</a> 12 week JavaScript SmartStart program. I am using HTML, CSS, JavaScript, & more to create professional grade websites and applications.</p>
-                  <p data-wow-delay=".4s" class="wow fadeInUp slower">Please check out my <a href="https://docs.google.com/document/d/1MXy1__TzoZHuxgqO3KQItpYYMgC2vQT4pwii-p8unkc/edit" target="blank">resume</a></p>
-                </div>
-                <div class="col-4">
-                  <img data-wow-delay=".3s" src="./Assets/Images/Headshot.jpg" class="headshot wow fadeInUp slower">
-                </div>
-                <div class="col-1"></div>
-              </div>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <div class="row">
-                <div class="col-12 other">
-                  <h1 data-wow-delay=".3s" class="wow zoomIn slower">Other Interests</h1>
-                </div>
-              </div>
-              <div class="row interests">
-                <div class="col-1"></div>
-                <div data-wow-delay=".3s" class="col-3 wow fadeInLeft slow">>
-                  <h1 id="smallHead">Sports</h1>
-                  <br>
-                  <img src="./Assets/Images/aLuck.jpg" class="intPic" alt="Andrew Luck">
-                </div>
-                <div data-wow-delay=".3s" class="col-4 wow fadeIn slowest">
-                  <h1 id="smallHead">Gaming</h1>
-                  <br>
-                  <img src="./Assets/Images/gaming.PNG" class="intPic">
-                </div>
-                <div data-wow-delay=".3s" class="col-3 wow fadeInRight slow">
-                  <h1 id="smallHead">Music</h1>
-                  <br>
-                  <img src="./Assets/Images/music.png" class="intPic">
-                </div>
-                <div class="col-1"></div>
-              </div>
-            </div>
-          </div>
+        </form>
+      </div>
+    </div>
+  </section>
 
-          <div class="jumbotron jumbotron-fluid projects" id="projects">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-12">
-                  <h1 data-wow-delay=".4s" class="projectHead wow fadeInUp slower">My Projects</h1>
-                </div>
-              </div>
-              <div class="row projectsRow">
-                <div data-wow-delay=".4s" class="col-4 blur wow pulse slow">
-                  <a href="https://codepen.io/jweiskittel/pen/XPdvPy" target="blank">
-                    <img src="./Assets/Images/cssCreature.PNG">
-                    <p>Goat created using only CSS</p>
-                  </a> 
-                </div>
-                <div data-wow-delay=".4s" class="col-4 blur wow pulse slow">
-                  <a href="https://jweiskittel.github.io/storeFront/" target="blank">
-                    <img  src="./Assets/Images/storeFront.PNG">
-                    <p>A static website using only HTML & CSS</p>
-                  </a>  
-                </div>
-                <div data-wow-delay=".4s" class="col-4 blur wow pulse slow">
-                  <a href="https://apicoordinates.firebaseapp.com/" target="blank">
-                    <img src="./Assets/Images/api.PNG">
-                    <p>Displays location data using JS & API GET requests</p>
-                  </a>
-                </div>
-              </div>
-              <div class="row projectsRow">
-                <div data-wow-delay='.4s' class='col-4 blur wow pulse slow'>
-                    <a href='https://randomfoodfinder.herokuapp.com/' target='blank'>
-                      <img src='./Assets/Images/angularApp2.PNG'>
-                      <p>Responsive Restaurant Finder using Angular</p>
-                    </a>
-                </div>
-                <div data-wow-delay='.4s' class="col-4 blur wow pulse slow">
-                  <a href='https://no-borders-client.herokuapp.com/' target='blank'>
-                    <img src='./Assets/Images/angularApp.PNG'>
-                    <p>Responsive Full-Stack App using Angular, Node.js & Postgres</p>
-                  </a>
-                </div>
-                <div data-wow-delay=".4s" class="col-4 blur wow pulse slow">
-                  <a href="https://jw-gtclient.herokuapp.com/" target="blank">
-                    <img src="./Assets/Images/reactApp.PNG">
-                    <p>Responsive Full-Stack App using React, Node.js & Postgres</p>
-                  </a>  
-                </div>
-              </div>
-            </div>
-          </div>
-          <br>
 
-          <section id="contact">
-            <div data-wow-delay=".3s" class="container wow fadeInUp slower">
-              <h2 class="text-center text-uppercase contactHeader">Want To Get In Touch?</h2>
-              <div class="row rowContact">
-                <form action="https://formspree.io/justinweiskittel@gmail.com" method="POST">
-                  <div class="control-group">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Name"
-                        id="name"
-                        required
-                        data-validation-required-message="Please enter your name"
-                        name="name"
-                        >
-                      <p class="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        placeholder="Email"
-                        id="email"
-                        required
-                        data-validation-required-message="Please enter your email"
-                        name="_replyto"
-                      >
-                      <p class="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <div class="form-group">
-                      <textarea
-                        class="form-control"
-                        rows="5"
-                        placeholder="Message"
-                        id="message"
-                        required
-                        data-validation-required-message="Please leave a message"
-                        name="message"
-                      ></textarea>
-                      <p class="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div class="text-center">
-                    <div id="success"></div>
-                    <button type="submit" class="btn btn-md">
-                      <i class="fa fa-paper-plane-o" aria-hidden="false"></i>
-                      Send Message
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </section>
 
-          <div class="jumbotron jumbotron-fluid footer">
-            <div class="container-fluid">
-              <div class="row footerRow">
-                <div class="col-5"></div>
-                <div class="col-1">
-                  <a href="https://www.linkedin.com/in/justin-weiskittel-55b64216a/" target="blank"><i class="fab fa-linkedin-in footerIcon"></i></a>
-                </div>
-                <div class="col-1">
-                  <a href="https://github.com/jweiskittel" target="blank"><i class="fab fa-github footerIcon"></i></a>
-                </div>
-                <div class="col-5"></div>
-              </div>
-              <p class="footerText">&copy; Justin Weiskittel 2018</p>
-            </div>
-          </div>
 
-        
-        <script src="https://mynameismatthieu.com/WOW/dist/wow.min.js"></script>
-        <script>new WOW().init();</script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
+
+
+  <div class="footer">
+    <div class="footerRow">
+      <div>
+        <a href="https://www.linkedin.com/in/justin-weiskittel-55b64216a/" target="blank"><i class="fab fa-linkedin-in footerIcon"></i></a>
+      </div>
+      <div>
+        <a href="https://github.com/jweiskittel" target="blank"><i class="fab fa-github footerIcon"></i></a>
+      </div>
+    </div>
+    <p class="footerText">&copy; Justin Weiskittel 2018</p>
+  </div>
+
+
+  <script src="https://mynameismatthieu.com/WOW/dist/wow.min.js"></script>
+  <script>new WOW().init();</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
