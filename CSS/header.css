@@ -26,7 +26,9 @@
 
 /* Ipad Pro COMPLETE */
 @media screen and (max-width: 1024px) {
-    
+    .jumbo {
+        padding-top: 32rem
+    }
 }
 
 
@@ -39,8 +41,10 @@
 
 
 /* Iphone 6/7/8 Plus COMPLETE */
-@media screen and (max-width: 414px) {
-  
+@media screen and (max-width: 415px) {
+    .jumbo {
+        padding-top: 12rem
+    }
 }
 
 

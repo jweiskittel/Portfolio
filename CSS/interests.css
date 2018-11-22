@@ -49,14 +49,31 @@
 
 /* Ipad COMPLETE */
 @media screen and (max-width: 769px) {
-  
+    .intPic {
+        width: 27vw;
+        height: 20vh;
+        margin-bottom: 20px
+    }
 }
 
 
 
 /* Iphone 6/7/8 Plus COMPLETE */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
+    .interests {
+        flex-direction: column;
+        justify-content: center
+    }
   
+    .intPic {
+        width: 65vw;
+        height: 40vh;
+        margin-bottom: 50px
+    }
+
+    #smallHead {
+        padding-bottom: 0
+    }
 }
 
 
@@ -77,6 +94,7 @@
 
   .intPic {
       width: 65vw;
-      height: 40vh
+      height: 40vh;
+      margin-bottom: 10px
   }
 }

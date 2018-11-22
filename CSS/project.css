@@ -65,7 +65,12 @@
 
 /* Ipad Pro COMPLETE */
 @media screen and (max-width: 1024px) {
-    
+    .blur img {
+        width: 27vw;
+        height: 12vh;
+        justify-content: space-evenly;
+        margin-bottom: 10px
+    }
 }
 
 
@@ -78,8 +83,20 @@
 
 
 /* Iphone 6/7/8 Plus COMPLETE */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
+    .projectsRow {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0
+    }
   
+    .blur img {
+        width: 75vw;
+        height: 25vh;
+        justify-content: space-around;
+        margin-left: 9%;
+        margin-bottom: 10px
+    }
 }
 
 

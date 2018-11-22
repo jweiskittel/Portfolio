@@ -55,7 +55,13 @@ button {
 
 /* Ipad Pro COMPLETE */
 @media screen and (max-width: 1024px) {
-
+    .rowContact {
+        width: 50vw
+    }
+  
+    .contactHeader {
+        font-size: 64px
+    }
 }
 
 
@@ -68,8 +74,14 @@ button {
 
 
 /* Iphone 6/7/8 Plus COMPLETE */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
+    .rowContact {
+        width: 60vw
+    }
   
+    .contactHeader {
+        font-size: 34px
+    }
 }
 
 

@@ -40,7 +40,27 @@
 
 /* Ipad Pro COMPLETE */
 @media screen and (max-width: 1024px) {
-    
+    .aboutRow2 {
+        flex-direction: column;
+    }
+
+    .aboutDesc {
+        max-width: 80vw;
+        font-size: 30px;
+        margin-left: 10%
+    }
+
+    .aboutDesc p {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .headshot {
+        width: 45vw;
+        height: 35vh;
+        margin-left: 28%;
+        margin-top: 50px
+    }
   }
 
 
@@ -53,8 +73,28 @@
 
   
   /* Iphone 6/7/8 Plus COMPLETE */
-  @media screen and (max-width: 414px) {
-    
+  @media screen and (max-width: 415px) {
+    .aboutRow2 {
+        flex-direction: column;
+    }
+
+    .aboutDesc {
+        max-width: 80vw;
+        font-size: 20px;
+        margin-left: 10%
+    }
+
+    .aboutDesc p {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .headshot {
+        width: 65vw;
+        height: 40vh;
+        margin-left: 17%;
+        margin-top: 20px
+    }
   }
 
 
