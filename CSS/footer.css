@@ -28,7 +28,14 @@ a {
 .footerText {
     text-align: center;
     color: white;
-    font-family: var(--font6)
+    font-family: var(--font6);
+    font-weight: lighter
+}
+
+.logo {
+    width: 40px;
+    padding-top: 7px;
+    padding-right: 5px
 }
 
 

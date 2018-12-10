@@ -32,8 +32,6 @@
 }
 
 .blur img {
-    width: 27vw;
-    height: 30vh;
     border: solid 3px rgba(255, 255, 255, 0.199);
     transition: transform .4s;
 }
@@ -61,15 +59,25 @@
     opacity: 1
 }
 
+.carousel {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50vh
+}
 
 
 /* Ipad Pro COMPLETE */
 @media screen and (max-width: 1024px) {
     .blur img {
         width: 27vw;
-        height: 12vh;
+        height: 29vh;
         justify-content: space-evenly;
         margin-bottom: 10px
+    }
+
+    .carousel {
+        margin-bottom: 25vh
     }
 }
 
@@ -92,10 +100,12 @@
   
     .blur img {
         width: 75vw;
-        height: 25vh;
+        height: 22vh;
         justify-content: space-around;
-        margin-left: 9%;
-        margin-bottom: 10px
+    }
+
+    .carousel {
+        margin-bottom: 15vh
     }
 }
 
@@ -103,7 +113,9 @@
 
 /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
 @media screen and (max-width: 412px) {
-  
+  .blur img {
+      height: 20vh
+  }
 }
 
 
@@ -118,9 +130,7 @@
 
   .blur img {
       width: 75vw;
-      height: 25vh;
+      height: 22vh;
       justify-content: space-around;
-      margin-left: 9%;
-      margin-bottom: 10px
   }
 }
