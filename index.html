@@ -13,10 +13,9 @@
   <title>Justin Weiskittel</title>
   <link rel="stylesheet" href="./CSS/owl.css">
   <link rel="stylesheet" href="./CSS/owl-theme.css">
-  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Flamenco|Megrim|PT+Sans+Narrow|Patua+One|Poiret+One|Kreon:300"
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Flamenco|Megrim|PT+Sans+Narrow|Patua+One|Poiret+One|Kreon:300|Lato:300,400,700"
     rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
@@ -209,8 +208,13 @@
   <script>$('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
-    items: 1
+    nav: true,
+    items: 1,
+    animateOut: "fadeOut slow",
+    animateIn: "fadeIn slow",
+    autoplay: true,
+    autoplayTimeout: 4500,
+    autoplayHoverPause: true
 })</script>
 </body>
 
